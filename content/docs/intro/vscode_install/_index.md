@@ -26,3 +26,4 @@ alwaysopen = true
 * Python
 * indent-rainbow
 * Microsoft Edge Tools
+* Jupyter

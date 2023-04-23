@@ -8,15 +8,13 @@ alwaysopen = true
 
 ## mysqlclient のインストール
 
-省略．第1回講義資料 (pptx) 参照．
+[こちら](https://dbe2-2023.github.io/docs/intro/env/#mysqlclient)を参照
 
-## Jupyter Notebook のインストールと実行．
+## VSCode のインストールと実行．
 
-省略．
-インストールについては，第1回講義資料 (pptx) 参照．
-実行方法については，「データベース各論I」第1回講義資料を参照．
+[こちら](https://dbe2-2023.github.io/docs/intro/vscode_install/)を参照
 
-講義資料のこの章では，Jupyter Notebook を用いて，Python プログラムから
+講義資料のこの章では，VSCodeの拡張機能を用いて実行するJupyter Notebook を用いて，Python プログラムから
 MySQLデータベースにアクセスする．
 
 ## 実行

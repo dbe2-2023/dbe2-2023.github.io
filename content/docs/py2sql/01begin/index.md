@@ -17,6 +17,10 @@ alwaysopen = true
 講義資料のこの章では，VSCodeの拡張機能を用いて実行するJupyter Notebook を用いて，Python プログラムから
 MySQLデータベースにアクセスする．
 
+ノートブックを実行する際に以下が必要である．
+1. カーネルの選択 → 現在使用しているPython環境を選択する
+2. `ipykernel`のインストールを求められた場合，それに従いインストールする．あるいは事前に `pip install ipykernel` を実行する
+
 ## 実行
 
 * Xampp コントロールパネルから，MySQLサーバを起動しておくこと．

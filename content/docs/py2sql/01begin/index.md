@@ -8,16 +8,18 @@ alwaysopen = true
 
 ## mysqlclient のインストール
 
-省略．第1回講義資料 (pptx) 参照．
+[こちら](https://dbe2-2023.github.io/docs/intro/env/#mysqlclient)を参照
 
-## Jupyter Notebook のインストールと実行．
+## VSCode のインストールと実行．
 
-省略．
-インストールについては，第1回講義資料 (pptx) 参照．
-実行方法については，「データベース各論I」第1回講義資料を参照．
+[こちら](https://dbe2-2023.github.io/docs/intro/vscode_install/)を参照
 
-講義資料のこの章では，Jupyter Notebook を用いて，Python プログラムから
+講義資料のこの章では，VSCodeの拡張機能を用いて実行するJupyter Notebook を用いて，Python プログラムから
 MySQLデータベースにアクセスする．
+
+ノートブックを実行する際に以下が必要である．
+1. カーネルの選択 → 現在使用しているPython環境を選択する
+2. `ipykernel`のインストールを求められた場合，それに従いインストールする．あるいは事前に `pip install ipykernel` を実行する
 
 ## 実行
 
@@ -111,10 +113,7 @@ phpMyAdmin において，データベース dbe2 のテーブル tbl1 を表示
   datetime モジュールの date オブジェクトとして
   取得されている．
 
-date オブジェクトについては，ここでは説明しない．
-興味のある者は (興味を持ってほしい)，
-インターネット上に多数のリソースがあるので調査すること．
-(`Python datetime` で検索する)
+date オブジェクトについては，インターネットで`python datetime` を検索すると多数出てくるので説明を割愛する．
 
 
 {{% exc seq="2-1" %}}

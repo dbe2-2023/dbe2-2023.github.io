@@ -12,7 +12,7 @@ HTML では，以下の4つの文字は，そのまま記述しても
 これを，__文字実体参照__ (character entity reference) と呼ぶ．
 
 | 文字  | 文字符号 |
-| :---: | :------: ||
+| :---: | :------: |
 |  <code>&lt;</code>  |  <code>&amp;lt;</code>  |
 |  <code>&gt;</code>  |  <code>&amp;gt;</code>  |
 | <code>&amp;</code>  | <code>&amp;amp;</code>  |
